@@ -1,0 +1,13 @@
+.topLevelHeaderWrapper {
+  height: 48px;
+  display: flex;
+  border-radius: 4px;
+  color: #152d4e;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  .subHeaderTextWrapper {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}

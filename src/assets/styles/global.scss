@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mt-24 {
+  margin-top: 24px;
+}
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2;
+}
+.error {
+  color: red;
+  font-size: 14px;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 942px !important;
+  }
+}

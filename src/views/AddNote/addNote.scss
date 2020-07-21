@@ -1,0 +1,138 @@
+.addNoteWrapper {
+  height: 500px;
+  background: white;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  border: solid 1px #1cb54f;
+  .react-datepicker__header {
+    background: linear-gradient(to bottom, #14b349, #09a04f);
+    color: white;
+    font-weight: bold;
+    .react-datepicker-time__header,
+    .react-datepicker__current-month.react-datepicker__current-month--hasYearDropdown.react-datepicker__current-month--hasMonthDropdown {
+      color: white;
+      font-weight: bold;
+    }
+    .react-datepicker__day-name {
+      font-weight: bold;
+      color: white;
+    }
+    .react-datepicker__month-dropdown,
+    .react-datepicker__year-dropdown {
+      background: linear-gradient(to bottom, #14b349, #09a04f);
+      border: green;
+    }
+    .react-datepicker__time-container {
+      width: 130px !important;
+    }
+  }
+  .date,
+  .time {
+    color: #152d4e;
+    font-size: 16px;
+  }
+  .react-datepicker-wrapper {
+    width: 100%;
+  }
+  .dateSelectionWraper > div {
+    margin-bottom: 12px;
+  }
+  .react-datepicker__input-container {
+    input {
+      width: 100%;
+      cursor: pointer;
+      font-size: 14px;
+      border: 0 !important;
+      border-bottom: 2px solid #cecbcb !important;
+    }
+    input:focus {
+      border: none !important;
+      outline-offset: unset !important;
+    }
+  }
+  .timeSelectionWraper > div {
+    margin-bottom: 12px;
+  }
+  .textAreaNote {
+    .note {
+      color: #152d4e;
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+    textarea {
+      resize: none;
+      width: 100%;
+      font-size: 14px;
+      border: 0;
+      border-bottom: 2px solid #cecbcb !important;
+    }
+  }
+  .titleWrap > div {
+    margin-bottom: 12px;
+  }
+  .titleWrap {
+    input {
+      border: 0;
+      width: 100%;
+      font-size: 14px;
+      border-bottom: 2px solid #cecbcb !important;
+      margin-bottom: 12px;
+    }
+  }
+  .actionWrapper {
+    margin: 18px 0;
+    .discardBtn,
+    .submitBtn {
+      width: 48%;
+      border-radius: 8px;
+      button {
+        width: 100%;
+      }
+    }
+    .discardBtn {
+      margin-right: 12px;
+      button.discard {
+        background: white;
+        border: 1px solid #1cb54f;
+        color: #1cb54f;
+        font-weight: bolder;
+        border-radius: 8px;
+        height: 36px;
+      }
+    }
+    .submitBtn {
+      button.save {
+        background: linear-gradient(to bottom, #14b349, #09a04f);
+        border: 1px solid #09a04f;
+        border-radius: 8px;
+        height: 36px;
+        color: white;
+        font-weight: bolder;
+      }
+    }
+  }
+}
+
+//Edit modal Wrapper Body
+.addNoteWrapper.editWrapper {
+  height: 454px;
+  margin: 0;
+  .deleteText {
+    width: 80%;
+    display: flex;
+    align-items: center;
+  }
+  .deleteBtnWrap {
+    width: 20%;
+    display: flex;
+    flex-direction: row-reverse;
+    button {
+      background: #ea1951;
+      border: 0;
+      border-radius: 8px;
+      color: white;
+      font-weight: bold;
+      padding: 3px 16px;
+    }
+  }
+}
